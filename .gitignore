@@ -1,0 +1,25 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# --- Data & Dataset ---
+# We ignore the raw data folder because it's too large for GitHub
+data/
+dataset/
+
+# --- Large Model Files ---
+# If you want to hide ALL models:
+*.h5
+
+# --- Documentation & OS ---
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# --- IDE Specific ---
+.vscode/
+.idea/
